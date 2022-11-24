@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+#cadastro {
+    border: 3px solid #87aff0;
+    margin: 1em 25% 0 1em;
+    border-radius: 10px;
+    display: inline-block;
+    display: block; margin:0 auto; 
+}
+
+#navbar {
+    background-color:#87aff0 ;
+}
+
+#is-128x128 {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+
+#caixa_cadastro {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#input{
+     background-color: gray;
+}
