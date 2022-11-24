@@ -1,43 +1,84 @@
 <div id="caixa_cadastro">
-    <p class="title is-2" style="color: #041157; font-weight: bolder;"> &nbsp; Quer fazer parte da nossa<br> comunidade de amantes de<br> &nbsp; teorias da conspiração?</p>
-    <p class="subtitle is-3" style="text-align:center; color: #041157 ">Fica, vai ter bolo! :)</p>
-  
-    <form class="box" id="cadastro">
-  
-      <div class="field">
-        <p class="title is-2" style="text-align:center; color: #041157; font-weight: bolder;">Registre-se já!</p>
+  <p class="title is-2" style="color: #041157; font-weight: bolder">
+    &nbsp; Quer fazer parte da nossa<br />
+    comunidade de amantes de<br />
+    &nbsp; teorias da conspiração?
+  </p>
+  <p class="subtitle is-3" style="text-align: center; color: #041157">
+    Fica, vai ter bolo! :)
+  </p>
+
+  <form
+    (ngSubmit)="onSubmit()"
+    [formGroup]="reactiveForm"
+    class="box"
+    id="cadastro"
+    method="post"
+    action="http://127.0.0.1:8000/register/"
+  >
+    <div class="field">
+      <p
+        class="title is-2"
+        style="text-align: center; color: #041157; font-weight: bolder"
+      >
+        Registre-se já!
+      </p>
+    </div>
+
+    <div class="field">
+      <label class="label">Como você se chama?</label>
+      <div class="control">
+        <input
+          formControlName="email"
+          class="input"
+          type="email"
+          placeholder="garanhão@example.com"
+          style="background-color: rgb(194, 194, 194)"
+        /><br />
       </div>
-  
-      <div class="field">
-        <label class="label">Como você se chama?</label>
-        <div class="control">
-          <input class="input" type="email" placeholder="garanhão@example.com" style="background-color: rgb(194, 194, 194);"><br>
-        </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Escolhe ai um nome bacana!</label>
+      <div class="control">
+        <input
+          formControlName="username"
+          class="input"
+          type="username"
+          placeholder="garanhão"
+          style="background-color: rgb(194, 194, 194)"
+        /><br />
       </div>
-    
-      <div class="field">
-        <label class="label">Escolhe ai um nome bacana!</label>
-        <div class="control">
-          <input class="input" type="username" placeholder="garanhão" style="background-color: rgb(194, 194, 194);"><br>
-        </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Digite sua senha:</label>
+      <div class="control">
+        <input
+          formControlName="password"
+          class="input"
+          type="password"
+          placeholder="********"
+          style="background-color: rgb(194, 194, 194)"
+        /><br />
       </div>
-  
-        <div class="field">
-          <label class="label">Digite sua senha:</label>
-          <div class="control">
-            <input class="input" type="password" placeholder="********" style="background-color: rgb(194, 194, 194);"><br>
-          </div>
-        </div>
-      
-        <div class="field">
-          <label class="label">Digita a sua senha de novo pra ter certeza!</label>
-          <div class="control">
-            <input class="input" type="password" placeholder="********" style="background-color: rgb(194, 194, 194);"><br>
-          </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Digita a sua senha de novo pra ter certeza!</label>
+      <div class="control">
+        <input
+          formControlName="confirmpass"
+          class="input"
+          type="password"
+          placeholder="********"
+          style="background-color: rgb(194, 194, 194)"
+        /><br />
       </div>
-    
-      
-     <button class="button is-info" style="display: block; margin:0 auto; ">Cadastre-se</button>
-  
-    </form>
-  </div>
+    </div>
+
+    <button class="button is-info" style="display: block; margin: 0 auto">
+      Cadastre-se
+    </button>
+  </form>
+</div>
