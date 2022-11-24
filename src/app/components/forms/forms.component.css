@@ -1,0 +1,16 @@
+#cadastro {
+    border: 3px solid #87aff0;
+    margin: 1em 25% 0 1em;
+    border-radius: 10px;
+    display: inline-block;
+    display: block; margin:0 auto; 
+}
+
+#caixa_cadastro {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#input{
+     background-color: gray;
+}
