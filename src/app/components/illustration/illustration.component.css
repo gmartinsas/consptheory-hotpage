@@ -1,4 +1,5 @@
-#is-128x128 {
-    float: left;
-    margin: 0 0 10px 10px;
+img {
+    position: relative;
+    left: 160px;
+    top: 60px;
 }

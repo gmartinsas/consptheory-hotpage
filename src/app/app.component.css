@@ -1,0 +1,17 @@
+@font-face {
+    font-family: TitleFontBold;
+    src: url('src/assets/fonts/Ramona-Bold.ttf') format('embedded-opentype'),
+         url('src/assets/fonts/Ramona-Bold.ttf') format('woff2'),
+         url('src/assets/fonts/Ramona-Bold.ttf') format('woff'),
+         url('src/assets/fonts/Ramona-Bold.ttf') format('truetype'),
+         url('src/assets/fonts/Ramona-Bold.ttf') format('svg');
+}
+
+@font-face {
+    font-family: TitleFontLight;
+    src: url('src/assets/fonts/Ramona-Light.ttf') format('embedded-opentype'),
+         url('src/assets/fonts/Ramona-Light.ttf') format('woff2'),
+         url('src/assets/fonts/Ramona-Light.ttf') format('woff'),
+         url('src/assets/fonts/Ramona-Light.ttf') format('truetype'),
+         url('src/assets/fonts/Ramona-Light.ttf') format('svg');
+}

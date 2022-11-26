@@ -1,3 +1,26 @@
 #navbar {
-    background-color:#87aff0 ;
+    background-color:#87aff0;
+    height: 80px;
+}
+
+img {
+    position: relative;
+    bottom: 4px;
+    left: 16px;
+}
+
+#readit {
+    font-family: TitleFontBold;
+    color: #031F43;
+    position: absolute;
+    top: 16px;
+    left: 80px;
+}
+
+#consp {
+    font-family: TitleFontLight;
+    color: #031F43;
+    position: absolute;
+    left: 182px;
+    top: 19px;
 }
