@@ -40,12 +40,20 @@ export class FormsComponent implements OnInit {
         headers: {
           'Content-type': 'application/json',
         },
-      });
-      this.reactiveForm.setValue({
-        email: '',
-        username: '',
-        password: '',
-        confirmpass: '',
+      }).then((response) => {
+        if (response.status === 201) {
+          this.reactiveForm.setValue({
+            email: '',
+            username: '',
+            password: '',
+            confirmpass: '',
+          });
+          window.location.replace('http://www.w3schools.com');
+        } else {
+          console.log(
+            `BACKEND ERROR: ${response.status} & ${response.statusText}`
+          );
+        }
       });
     }
   }
