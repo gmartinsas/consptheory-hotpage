@@ -21,8 +21,6 @@ export class FormsComponent implements OnInit {
 
   onSubmit() {
     const { username, password, email, confirmpass } = this.reactiveForm.value;
-
-    console.log(this.reactiveForm.value);
     if (
       username &&
       password &&
