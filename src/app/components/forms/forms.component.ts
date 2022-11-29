@@ -46,7 +46,7 @@ export class FormsComponent implements OnInit {
             password: '',
             confirmpass: '',
           });
-          window.location.replace('http://www.w3schools.com');
+          window.location.replace('/confirma-page');
         } else {
           console.log(
             `BACKEND ERROR: ${response.status} & ${response.statusText}`

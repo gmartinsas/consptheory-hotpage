@@ -1,0 +1,39 @@
+#navbar {
+    position: relative;
+    background-color:#87aff0;
+    height: 80px;
+}
+
+img {
+    position: relative;
+    bottom: 4px;
+    left: 16px;
+}
+
+#readit {
+    font-family: 'Rubik', sans-serif;
+    color: #031F43;
+    position: absolute;
+    top: 17px;
+    left: 80px;
+}
+
+#consp {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #031F43;
+    position: absolute;
+    left: 180px;
+    top: 16px;
+}
+
+#form-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#meme {
+    font-size: 25px;
+    text-align: center;
+}

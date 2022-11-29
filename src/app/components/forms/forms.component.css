@@ -19,7 +19,8 @@
 }
 
 #form-title {
-    font-family: TitleFontBold;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -28,5 +29,5 @@
 }
 
 #form-subtitle {
-    font-family: TitleFontBold;
+    font-family: 'Rubik', sans-serif;
 }

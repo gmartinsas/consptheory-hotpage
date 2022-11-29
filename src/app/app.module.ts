@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { IllustrationComponent } from './components/illustration/illustration.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { ConfirmaPageComponent } from './components/confirma-page/confirma-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ConfirmaPageComponent } from './components/confirma-page/confirma-page.
     IllustrationComponent,
     FormsComponent,
     ConfirmaPageComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, ReactiveFormsModule],
   providers: [],

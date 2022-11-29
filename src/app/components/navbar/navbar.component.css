@@ -1,4 +1,5 @@
 #navbar {
+    position: relative;
     background-color:#87aff0;
     height: 80px;
 }
@@ -10,17 +11,18 @@ img {
 }
 
 #readit {
-    font-family: TitleFontBold;
+    font-family: 'Rubik', sans-serif;
     color: #031F43;
     position: absolute;
-    top: 16px;
+    top: 17px;
     left: 80px;
 }
 
 #consp {
-    font-family: TitleFontLight;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
     color: #031F43;
     position: absolute;
-    left: 182px;
-    top: 19px;
+    left: 180px;
+    top: 16px;
 }
